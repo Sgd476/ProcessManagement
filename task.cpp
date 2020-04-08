@@ -99,7 +99,7 @@ int main()
     printf("Please enter the number of processes:\n");
     cin>>N;
     printf("Please enter the initial value of% d in order (process from 0 ~% d):\n",N,N-1);
-    printf("(0- finished,1-running,2-ready,3-block)\n");
+    printf("(0- FINNAL,1-RUNNING,2-READY,3-BLOCK)\n");
     printf("ID PRIORITY CPUTIME ALLTIME ");
     printf("STARTBLOCK BLOCKTIME STATE \n");
 
@@ -107,7 +107,7 @@ int main()
         cin>>P[i].id>>P[i].priority>>P[i].cputime>>P[i].alltime;
         cin>>P[i].startblock>>P[i].blocktime>>P[i].state;
     }
-    //P[n].state=1;
+
     printf("The status of timeslice while processes are running\n");
     process_management();
     return 0;
