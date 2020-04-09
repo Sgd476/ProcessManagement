@@ -45,6 +45,7 @@ void show(int i){
         else if(P[i].state==BLOCK) cout<<"BLOCK"<<endl;
     }
 }
+
 void process_management(){
     int n=0;
     int j=0;
