@@ -11,4 +11,5 @@ This project is about CPU scheduling. The major task of this project is task sch
 
 
 
-3.
+
+3.At the end, if the cumulative time for a process occupies cpu is less than the time the process needs, then change the state from RUNNING to READY, which means the running process will be inserted into ready queue.
