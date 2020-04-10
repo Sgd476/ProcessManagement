@@ -8,4 +8,7 @@ This project is about CPU scheduling. The major task of this project is task sch
 
 
 2.While running the RUNNING process(include idle processes), it is possible to have state changes(RUNNING to BLOCK), which means running process may insert to the block queue. Other new processes may create PCB(Process Control Block), the state may change from BLOCK to READY, which means removing from block queue and inserting to ready queue.
+
+
+
 3.
