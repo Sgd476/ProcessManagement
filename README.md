@@ -2,7 +2,7 @@ Haodong Ma
 200376168 
 
 
-This project is about CPU scheduling. The major task of this project is task scheduling.
+This project is about CPU scheduling. The major task of this project is processes scheduling.
 
 1.When nothing is running in the system(the ready queue is empty), the system runs idle processes. Otherwise the system runs other process.(state change from READY to RUNNING)
 
