@@ -18,3 +18,6 @@ This project is about CPU scheduling. The major task of this project is processe
 
 
 The challenge in this project is that I need to have a really clear and deep understanding of CPU scheduling, and it's algorithm.
+
+
+Check testrun.log to see how it works.
